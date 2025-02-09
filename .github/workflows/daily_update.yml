@@ -2,8 +2,7 @@ name: Daily Repository Update
 
 on:
   schedule:
-    # Runs every day at 2:30 AM UTC (use specific minutes/hours)
-    - cron: '30 2 * * *'
+    - cron: '12 14 * * *'
 
 jobs:
   update-repo:
